@@ -1,0 +1,27 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "A command-line (Terminal-based) note taking application",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bushra-401-advanced-javascript/notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bushra-401-advanced-javascript/notes/issues"
+  },
+  "homepage": "https://github.com/bushra-401-advanced-javascript/notes#readme",
+  "dependencies": {
+    "eslint": "^7.0.0",
+    "minimist": "^1.2.5"
+  }
+}
