@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "eslint": "eslint '**/*.js'",
     "fix": "eslint '**/*.js' --fix"
   },
@@ -25,5 +25,8 @@
   "dependencies": {
     "eslint": "^7.0.0",
     "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
   }
 }
