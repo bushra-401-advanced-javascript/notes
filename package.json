@@ -24,7 +24,8 @@
   "homepage": "https://github.com/bushra-401-advanced-javascript/notes#readme",
   "dependencies": {
     "eslint": "^7.0.0",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "mongoose": "^5.9.15"
   },
   "devDependencies": {
     "jest": "^26.0.1"
