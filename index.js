@@ -8,6 +8,7 @@ const MONGOOSE_URI = 'mongodb://localhost:27017/notes';
 mongoose.connect(MONGOOSE_URI, {
   useNewUrlParser: true, 
   useUnifiedTopology: true,
+  useFindAndModify: false,
 })
   .then(() => {
     console.log('\n***DB Connected!***\n');
